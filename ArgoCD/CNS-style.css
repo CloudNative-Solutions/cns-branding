@@ -1,6 +1,7 @@
 :root {
   --cns: #0086FF;
   --cns-light: #93EAFF;
+  --cns-background: #E5E5E5;
   --logo: url(https://cloudnative-solutions.github.io/cns-branding/images/cns-logo-web.png);
 }
 
@@ -35,7 +36,7 @@ a:hover {
 }
 
 .sidebar {
-    background: linear-gradient(to bottom, #999, #777, #333, #222, #111);
+    background: var(--cns-background);
 }
 
 .argo-button.argo-button--light.argo-button--lg.argo-button--short {
