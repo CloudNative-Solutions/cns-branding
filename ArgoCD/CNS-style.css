@@ -1,0 +1,119 @@
+:root {
+  --cns: #007aff;
+  --cns-light: #4ca2ff;
+  --logo: url(https://cloudnative-solutions.github.io/cns-branding/images/cns-logo-web.svg);
+}
+
+a,
+a:hover {
+  color: var(--cns);
+}
+
+.checkbox--selected {
+  border-color: var(--cns);
+  background-color: var(--cns);
+}
+
+.login .argo__logo {
+  background-image: var(--logo);
+  max-height: 140px;
+  min-height: 0;
+  margin: 0 16px;
+}
+
+.sidebar__nav-item--active i {
+  color: var(--cns-light);
+}
+.sidebar__logo__character {
+  display: none;
+}
+
+.sidebar__logo__text-logo {
+  filter: none;
+  height: 32px;
+  content: var(--logo);
+}
+
+.argo-button.argo-button--light.argo-button--lg.argo-button--short {
+  color: var(--cns);
+}
+
+.login .argo-button {
+  color: var(--cns);
+}
+
+.top-bar__breadcrumbs a {
+  color: var(--cns-light);
+}
+
+.argo-field:focus,
+.argo-textarea:focus {
+  border-color: var(--cns);
+}
+
+.argo-field:focus+label.argo-label-placeholder,
+.argo-textarea:focus+label.argo-label-placeholder {
+  color: var(--cns);
+}
+
+.applications-list__search:focus-within {
+  border-color: var(--cns);
+}
+
+.theme-light .top-bar__title {
+  color: var(--cns-light);
+}
+
+.theme-light .login-logout-button {
+  color: var(--cns);
+}
+
+.theme-light .login-logout-button:hover {
+  color: var(--cns-light);
+}
+
+.login-logout-button:focus {
+  box-shadow: 0 0 0 0.1em var(--cns)
+}
+
+.applications-list__view-type i.selected {
+  color: var(--cns);
+}
+
+.argo-button--base-o {
+  color: var(--cns);
+  box-shadow: inset 0 0 0 1px var(--cns);
+}
+
+.argo-button--base-o:not(.disabled):not([disabled]):hover {
+  background-color: var(--cns);
+}
+
+.argo-button--base-o:not(.disabled):not([disabled]):focus {
+  background-color: var(--cns) !important;
+}
+
+.argo-button--base:not(.disabled):not([disabled]):focus {
+  border: 1px solid var(--cns) !important;
+}
+
+.argo-checkbox input:focus {
+  outline: 2px solid var(--cns) !important;
+}
+
+.settings-overview__redirect-panel__title {
+  color: var(--cns);
+}
+
+.argo-table-list--clickable .argo-table-list__row:hover {
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, .1),
+    0 0 0 1px var(--cns-light);
+}
+
+.tabs__nav a.active {
+  color: var(--cns);
+}
+
+.tabs__indicator {
+  background-color: var(--cns);
+}
