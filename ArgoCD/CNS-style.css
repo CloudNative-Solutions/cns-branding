@@ -34,6 +34,10 @@ a:hover {
   content: var(--logo);
 }
 
+.sidebar {
+    background: linear-gradient(to bottom, #999, #777, #333, #222, #111);
+}
+
 .argo-button.argo-button--light.argo-button--lg.argo-button--short {
   color: var(--cns);
 }
