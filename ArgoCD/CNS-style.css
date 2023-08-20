@@ -36,7 +36,11 @@ a:hover {
 }
 
 .sidebar {
-    background: var(--cns-background);
+   background: var(--cns-background);
+}
+
+.nav-bar {
+   background: var(--cns-background);
 }
 
 .argo-button.argo-button--light.argo-button--lg.argo-button--short {
